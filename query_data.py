@@ -10,10 +10,10 @@ print("Loading model...")
 model = SentenceTransformer(MODEL_ID)
 
 print("Loading pre-computed embeddings from embeddings.npy...")
-embeddings = np.load("embeddings.npy")  # shape (N, D)
+embeddings = np.load("building_embedding_data/embeddings.npy")  # shape (N, D)
 
 print("Loading metadata from embeddings_metadata.csv...")
-df_emb = pd.read_csv("embeddings_metadata.csv")
+df_emb = pd.read_csv("building_embedding_data/embeddings_metadata.csv")
 
 print(f"Loaded {len(df_emb)} albums with embeddings of shape {embeddings.shape}")
 

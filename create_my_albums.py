@@ -2,9 +2,9 @@ import pandas as pd
 import unicodedata
 import re
 
-FILE_MYALBUMS = "myalbums.csv"
-FILE_REVIEWS = "reviews_with_moods.csv"
-OUTPUT_FILE = "albums_in_both.csv"
+FILE_MYALBUMS = "building_embedding_data/myalbums.csv"
+FILE_REVIEWS = "data_cleaning_data/reviews_with_moods.csv"
+OUTPUT_FILE = "building_embedding_data/albums_in_both.csv"
 
 def normalize(s):
     """Normalize for case-insensitive album matching."""
