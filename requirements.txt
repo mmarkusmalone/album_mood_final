@@ -1,0 +1,8 @@
+flask
+flask-cors
+pandas
+json
+sentence_transformers
+numpy
+huggingface_hub
+tqdm
